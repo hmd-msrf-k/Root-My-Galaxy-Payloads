@@ -73,6 +73,8 @@ void fdset_put_word(fd_set *set, int word, uint64_t value) {
 #endif
 
 void put_fake_fops_table(unsigned char *p, size_t off) {
+  memset(p + off, 0, 0x110);
+  memset(p + off, 0, 0x110);
   put64(p, off + FOPS_OWNER_OFF, 0);
   put64(p, off + FOPS_LLSEEK_OFF,
         fake_w0 + FAKE_WAITER_PI_TREE_ENTRY_OFF);
