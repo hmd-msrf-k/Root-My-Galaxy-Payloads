@@ -203,7 +203,7 @@
  * ------------------------------------------------------------------------- */
 #define LOCK_OFF 0x2210
 #define W0_OFF 0x2350
-#define FOPS_OFF 0x2000
+#define FOPS_OFF 0x7000
 #define SCRATCH_OFF 0x3000
 #define RIGHT_OFF 0x4440
 #define LEFT_OFF 0x5550
