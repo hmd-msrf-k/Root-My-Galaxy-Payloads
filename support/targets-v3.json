@@ -231,6 +231,20 @@
     "url": "https://raw.githubusercontent.com/hmd-msrf-k/Root-My-Galaxy-Payloads/gts9fewifi-X510XXSEEZG3/kernelsu/ksud-next-gts9fewifi-X510XXSEEZG3-kdp",
     "size": 4083520
   }
+},
+{
+      "payloadId": "gts9fewifi-X510XXSEEZG3-test",
+      "displayName": "Galaxy Tab S9 FE Wi-Fi TEST | Kernel 5.15.189",
+      "models": ["SM-X510"],
+      "kernelVersions": ["5.15.189"],
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/hmd-msrf-k/Root-My-Galaxy-Payloads/gts9fewifi-X510XXSEEZG3/artifacts/gts9fewifi-X510XXSEEZG3-test/cve-2026-43499-app.so",
+        "size": 104128
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/hmd-msrf-k/Root-My-Galaxy-Payloads/gts9fewifi-X510XXSEEZG3/kernelsu/ksud-gts9fewifi-X510XXSEEZG3-kdp",
+        "size": 3828432
+      }
 }
   ]
 }
